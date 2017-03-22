@@ -1,0 +1,27 @@
+body{
+  background: -webkit-linear-gradient(left,#F6ECF4,#E6F2E4);
+  display: -webkit-flex;
+}
+.container{
+  margin: 0 auto;
+}
+
+input, select{
+  display: inline-block;
+  box-sizing: border-box;
+  border: none;
+  box-shadow: none;
+  border-radius: 0px;
+  -webkit-appearance: none;
+  width: 100%;
+  padding: 15px;
+  font-size: 1em;
+  background-color: #ffffff;
+}
+
+.inputs:valid{
+  background-color: #9CE4D2;
+}
+.button{
+  background-color: #23846D;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<!--Data Not Shown on the Webpage-->
+<head>
+	<meta charset="utf-8">
+	<title>Registration Form</title>
+	<link rel="stylesheet" type="text/css" href="reg.css">
+</head>
+<!--The Content of the Webpage-->
+<div class="container">
+<body>
+	<header>
+		<h1>報名表單</h1>
+	</header>
+	<form action="https://docs.google.com/forms/d/e/1FAIpQLScM4B6u7nOkNQqUOlSBn7fKXm5cjuno14nyCKRlA4XyjSY9Qg/formResponse">
+		<label for="name">姓名：</label><input type="text" name="entry.1339495092" id="name" required="required" placeholder="Name" class="inputs"><br><br>
+		<label for="college">學院：</label><select name="entry.1944781450" id="college" required="required" class="inputs">
+			<option value="" disabled selected>請選擇</option>
+			<option value="college of liberal arts">文學院</option>
+			<option value="college of science">理學院</option>
+			<option value="college of social science">社會科學學院</option>
+			<option value="college of law">法學院</option>
+			<option value="college of commerce">商學院</option>
+			<option value="college of foreign languages">外國語文學院</option>
+			<option value="college of communication">傳播學院</option>
+			<option value="college of international relations">國際事務學院</option>
+			<option value="college of education">教育學院</option></select><br><br>
+		<label for="phone_number">手機：</label><input type="text" name="entry.795504394" id="phone_number" required="required" pattern="[0-9]{10}" placeholder="09XXXXXXXX" class="inputs"><br><br>
+		<label for="email">Email：</label><input type="email" name="entry.560282373" id="email" required="required" placeholder="XXXXX@XXXX.com" class="inputs"><br><br>
+		<label for="birth_date">生日：</label><input type="date" name="entry.324774019" id="birth_date" required="required" class="inputs">
+		<input type="hidden" value="103208057" name="entry.189820201" id="id_number"><br><br>
+		<input type="submit" class="button" value="註冊">
+	</form>
+</body>
+</div>
+</html>
